@@ -30,6 +30,15 @@ Configured SSH Jail
 ```bash
 sudo nano /etc/fail2ban/jail.local
 ```
+```bash
+sudo ufw enable
+sudo ufw allow ssh
+sudo ufw status
+```
+```bash
+sudo fail2ban-client status sshd
+```
+
 
 
 
